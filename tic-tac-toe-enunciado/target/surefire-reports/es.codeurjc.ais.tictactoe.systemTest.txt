@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: es.codeurjc.ais.tictactoe.systemTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.831 sec <<< FAILURE! - in es.codeurjc.ais.tictactoe.systemTest
+es.codeurjc.ais.tictactoe.systemTest  Time elapsed: 6.831 sec  <<< ERROR!
+org.springframework.boot.context.embedded.tomcat.ConnectorStartFailedException: Connector configured to listen on port 8080 failed to start
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.checkThatConnectorsHaveStarted(TomcatEmbeddedServletContainer.java:222)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:198)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at es.codeurjc.ais.tictactoe.WebApp.start(WebApp.java:31)
+	at es.codeurjc.ais.tictactoe.WebApp.start(WebApp.java:26)
+	at es.codeurjc.ais.tictactoe.systemTest.setupClass(systemTest.java:23)
+
